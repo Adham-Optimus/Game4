@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea00705f83f78b54ab87adc27b17db4f, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  dialogueDescription: Test dialogue
+  npcName: Chelik
+  npcImage: {fileID: -4556197565260342421, guid: 97bc7fe4119bd4044ad3b04d4682f0d6, type: 3}
+  replicas:
+  - replicaText:
+    - Hello
+    - Get up
+    answers:
+    - answerText: Who are you??
+      answerType: 0
+      link: 1
+    - answerText: Just a second
+      answerType: 1
+      link: 0
+  - replicaText:
+    - Just Chelik as you
+    - BUt you are special chelik
+    answers:
+    - answerText: GoodBye
+      answerType: 7
+      link: 0

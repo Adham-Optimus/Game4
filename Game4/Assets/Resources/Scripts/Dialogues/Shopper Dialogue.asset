@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea00705f83f78b54ab87adc27b17db4f, type: 3}
+  m_Name: Shopper Dialogue
+  m_EditorClassIdentifier: 
+  dialogueDescription: Test dialogue
+  npcName: Shopper
+  npcImage: {fileID: 974577563860017414, guid: 97bc7fe4119bd4044ad3b04d4682f0d6, type: 3}
+  replicas:
+  - replicaText:
+    - SMASH THEM!!!!!!!!!!!!!!!!!!!!!!
+    answers:
+    - answerText: Buy SuperBow
+      answerType: 6
+      link: 11
+    - answerText: Buy Epic Bow
+      answerType: 6
+      link: 13
+    - answerText: Buy Legendary Bow
+      answerType: 6
+      link: 15
